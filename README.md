@@ -2,6 +2,8 @@
 
 Area riservata per la Società Ginnastica Pordenonese. React + TypeScript, Supabase, Google Drive e Wix Bookings. Web app installabile su iPhone e Android, con progetto nativo Android Capacitor.
 
+Il manuale illustrato per le insegnanti è pubblicato come `Manuale-insegnanti-SGP.pdf` nella pagina di installazione.
+
 ## Utilizzo
 
 - La segreteria crea gli account insegnanti e assegna le lezioni.

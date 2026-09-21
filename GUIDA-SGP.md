@@ -8,7 +8,9 @@ Accedi con l'indirizzo e la password del gestionale. Sono distinti dall'accesso 
 
 **iPhone:** apri il sito in Safari, tocca Condividi e scegli Aggiungi alla schermata Home. Apri poi l'icona SGP. Su iPhone non si installano file APK.
 
-**Android:** scarica `SGP-Gestionale-Android-1.1.apk`, aprilo e consenti l'installazione da questa fonte se il telefono la richiede. È compatibile da Android 6 in poi. Puoi anche usare il sito dal browser.
+**Android:** scarica `SGP-Gestionale-Android-1.2.apk`, aprilo e consenti l'installazione da questa fonte se il telefono la richiede. È compatibile da Android 6 in poi. Puoi anche usare il sito dal browser. La versione 1.2 usa il nuovo logo SGP come icona.
+
+Il manuale illustrato per le insegnanti è disponibile come `Manuale-insegnanti-SGP.pdf` nella pagina di installazione.
 
 ## Primo avvio della segreteria
 
