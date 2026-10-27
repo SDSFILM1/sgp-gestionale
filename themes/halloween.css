@@ -1,0 +1,24 @@
+/* Seasonal colours only. Control sizes, positions and hit targets stay intact. */
+:root{background:#fff0df;--line:#eadfd3}
+html,body,#root{background-color:#fff0df}
+.sidebar{background:linear-gradient(165deg,#382d29,#574034)}
+.sidebar nav button.active{background:#ffffff1c}
+.sidebar nav button.active:before{background:#ffb768}
+.workspace-label{display:flex;align-items:center;justify-content:space-between}
+.workspace-label:after,.sidebar nav button:first-child:after{content:"";display:block;flex-shrink:0;width:17px;height:17px;background:url('./pumpkin.svg') center/contain no-repeat;pointer-events:none}
+.sidebar nav button:first-child:after{width:14px;height:14px;margin-left:auto;opacity:.85}
+.topbar{background:#fffaf4;border-bottom-color:#efdfcf}
+.welcome-panel{background:linear-gradient(110deg,#ffe7c6,#fff4e2);border-color:#efd4ad}
+.welcome-panel p{color:#684d38}
+.panel{box-shadow:0 5px 22px #80451709}
+.login-shell{background:#fff7ed}
+.login-shell>aside{background:linear-gradient(160deg,#3e302a,#5c4131)}
+.login-shell aside .eyebrow,.login-shell aside small{color:#efb981}
+.login-features svg{color:#ffc58b}
+.device-lock{background:#fff0df}
+@media(max-width:800px){
+ .bottom-nav{background:#fffaf4f5}
+ .bottom-nav button.active{background:#ffead5;color:#864719}
+ .bottom-nav button:last-child{position:relative}
+ .bottom-nav button:last-child:after{content:"";position:absolute;width:12px;height:12px;top:7px;left:calc(50% + 12px);background:url('./pumpkin.svg') center/contain no-repeat;pointer-events:none}
+}

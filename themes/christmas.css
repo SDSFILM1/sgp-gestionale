@@ -1,0 +1,15 @@
+:root{background:#f0f6f2;--line:#dce7df}
+html,body,#root{background-color:#f0f6f2}
+.sidebar{background:linear-gradient(165deg,#173b31,#245546)}
+.sidebar nav button.active:before{background:#e6bd65}
+.workspace-label{display:flex;align-items:center;justify-content:space-between}
+.workspace-label:after,.sidebar nav button:first-child:after{content:"";display:block;flex-shrink:0;width:17px;height:17px;background:url('./fir-tree.svg') center/contain no-repeat;pointer-events:none}
+.sidebar nav button:first-child:after{width:14px;height:14px;margin-left:auto;opacity:.85}
+.topbar{background:#fffdf7;border-bottom-color:#e2e9dc}
+.welcome-panel{background:linear-gradient(110deg,#e5f1e8,#fcf4dd);border-color:#d5e4d8}
+.panel{box-shadow:0 5px 22px #183b5010}
+.login-shell{background:#f0f6f2}
+.login-shell>aside{background:linear-gradient(165deg,#173b31,#245546)}
+.login-shell aside .eyebrow,.login-features svg{color:#e6c984}
+.device-lock{background:#f0f6f2}
+@media(max-width:800px){.bottom-nav{background:#fffdf7f5}.bottom-nav button.active{background:#e6f0e8;color:#245546}.bottom-nav button:last-child{position:relative}.bottom-nav button:last-child:after{content:"";position:absolute;width:12px;height:12px;top:7px;left:calc(50% + 12px);background:url('./fir-tree.svg') center/contain no-repeat;pointer-events:none}}

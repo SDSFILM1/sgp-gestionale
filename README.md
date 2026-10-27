@@ -36,3 +36,11 @@ L'aggiornamento Wix avviene ogni cinque minuti quando il gestionale è aperto, d
 I test PGlite controllano i permessi di segreteria/insegnante, il blocco degli utenti disabilitati, la conservazione dello storico, l'idempotenza dell'import Wix, cancellazioni e spostamenti delle prenotazioni. Le prove non sostituiscono la verifica delle integrazioni negli account effettivi.
 
 GitHub Pages distribuisce l'interfaccia pubblica: tutti i dati sono protetti dal login e dalle policy del database. La cache offline conserva solo i file dell'interfaccia. È necessaria la connessione per leggere e salvare i dati.
+
+## Temi e festività
+
+La segreteria gestisce il tema globale da Impostazioni, solo nell'interfaccia desktop. La scelta iniziale è Normale; Halloween e Natale sono disponibili senza essere attivati automaticamente. Il ritorno al tema normale può avere una data facoltativa, calcolata in Europe/Rome.
+
+Le risorse dei temi sono in public/themes e vanno pubblicate insieme ai file principali. Il runtime legge get_app_theme e carica soltanto fogli di stile e immagini del sito SGP, senza eseguire codice remoto. Per aggiungere un tema bastano risorse pubblicate e una voce in app_theme_catalog; non serve ricompilare l'app. I cambi sono riservati alla segreteria con set_app_theme.
+
+Android include tre icone selezionabili tramite alias: standard, halloween e christmas. Una nuova immagine nativa non inclusa richiede una nuova versione Android; i nuovi temi possono usare l'icona standard. Le icone già incluse cambiano alla riapertura dell'app, con i tempi di aggiornamento del launcher del telefono.
