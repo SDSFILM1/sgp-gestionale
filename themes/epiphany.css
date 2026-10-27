@@ -1,0 +1,7 @@
+/* Decorative colours only: controls keep their size and position. */
+:root{background:#f2f3fc;--line:#dce5e5}html,body,#root,.device-lock{background-color:#f2f3fc}
+.sidebar,.login-shell>aside{background:linear-gradient(165deg,#263254,#435780)}.sidebar nav button.active:before{background:#f2d59a}
+.workspace-label{display:flex;align-items:center;justify-content:space-between}.workspace-label:after{content:"⭐";font-size:17px;line-height:1;pointer-events:none}
+.topbar{background:#ffffffee}.welcome-panel{background:linear-gradient(110deg,#f2f3fc,#fffdf6);border-color:#dce5e5}.welcome-panel p{color:#435761}.panel{box-shadow:0 5px 22px #17334809}
+.login-shell{background:#f2f3fc}.login-shell aside .eyebrow,.login-features svg{color:#efdeac}
+@media(max-width:800px){.bottom-nav{background:#fffffff5}.bottom-nav button.active{background:#f2f3fc;color:#263254}}

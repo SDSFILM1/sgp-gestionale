@@ -50,3 +50,11 @@ Android include tre icone selezionabili tramite alias: standard, halloween e chr
 La pagina `versioni.html`, collegata da `installa.html`, conserva le note delle versioni Android pubblicate e degli aggiornamenti web. I dati sono in `public/versioni.json` nei sorgenti: aggiornarli per ogni futura pubblicazione, indicando data, modifiche e commit. `scripts/build-history.mjs` rigenera la pagina durante la build e verifica che la versione più recente coincida con `public/version.json`.
 
 Gli APK rimossi non vengono ripubblicati. La versione 1.5 non risulta pubblicata nello storico GitHub. Modifiche alle sole pagine statiche di installazione e storico non richiedono un nuovo APK.
+
+### Calendario automatico (27 ottobre 2026)
+
+Modalità predefinita `automatic`: 15 temi festivi, fuori periodo tema normale. Orario Europe/Rome. Capodanno 31 dicembre–2 gennaio; Epifania 4–6 gennaio; San Valentino 13–14 febbraio; Carnevale giovedì grasso–martedì grasso; Festa della donna 6–8 marzo; Pasqua da giovedì santo a Pasquetta; Liberazione 24–25 aprile; Lavoro 1–2 maggio; Repubblica 1–2 giugno; Ferragosto 14–16 agosto; San Francesco 4 ottobre; Halloween 29–31 ottobre; Ognissanti 1 novembre; Immacolata 6–8 dicembre; Natale 23–29 dicembre. Il calendario non modifica lezioni, presenze o chiusure dei corsi.
+
+Migrazione `202610270004_automatic_holidays.sql`: date mobili ricalcolate ogni anno, metadati pubblici compatibili con il runtime Android 1.21. Le scelte manuali festive scadono entro 7 giorni; dopo riprende l’automatico senza prolungare immediatamente lo stesso evento. `standard` disattiva l’automatico. Solo la segreteria può configurare; funzioni interne di calcolo non esposte ad anon/authenticated. Le nuove decorazioni usano l’icona SGP normale. Nuovi CSS generati da `scripts/build-holiday-themes.mjs`. La build aggiorna solo il sito: l’APK 1.21 resta invariato e lo storico versioni è esclusivamente sul sito.
+
+Date di riferimento: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html e https://www.cattedralepescia.it/Feste-mobili.asp?a=2027 . Le finestre decorative sono scelte SGP e durano al massimo 7 giorni.
