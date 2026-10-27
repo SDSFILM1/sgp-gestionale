@@ -5,6 +5,24 @@
   ],
   "releases": [
     {
+      "version": "1.22",
+      "date": "2026-10-27",
+      "title": "Prima lezione per ogni corso in prova",
+      "commit": "bee9c1472691139b0c0392243ece905e048a2149",
+      "changes": [
+        "Quando aggiungi un atleta in prova, per ogni corso selezionato viene richiesta la data della prima lezione.",
+        "Ogni corso parte dalla propria data: l’atleta compare negli appelli da quel giorno, anche per lezioni create successivamente.",
+        "La lista Ragazzi in prova mostra anche i corsi programmati e le relative date; riaprendo la scheda le scelte future restano conservate.",
+        "Presenze registrate e storico conservati. Le versioni precedenti non possono cancellare per errore le prove già programmate."
+      ],
+      "webUpdates": [
+        {
+          "date": "2026-10-27",
+          "text": "Halloween attivato dal 27 al 31 ottobre 2026, poi riprende il calendario automatico."
+        }
+      ]
+    },
+    {
       "version": "1.21",
       "date": "2026-10-27",
       "title": "Temi e festività gestiti dalla segreteria",
