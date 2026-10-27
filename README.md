@@ -44,3 +44,9 @@ La segreteria gestisce il tema globale da Impostazioni, solo nell'interfaccia de
 Le risorse dei temi sono in public/themes e vanno pubblicate insieme ai file principali. Il runtime legge get_app_theme e carica soltanto fogli di stile e immagini del sito SGP, senza eseguire codice remoto. Per aggiungere un tema bastano risorse pubblicate e una voce in app_theme_catalog; non serve ricompilare l'app. I cambi sono riservati alla segreteria con set_app_theme.
 
 Android include tre icone selezionabili tramite alias: standard, halloween e christmas. Una nuova immagine nativa non inclusa richiede una nuova versione Android; i nuovi temi possono usare l'icona standard. Le icone già incluse cambiano alla riapertura dell'app, con i tempi di aggiornamento del launcher del telefono.
+
+## Storico pubblico delle versioni
+
+La pagina `versioni.html`, collegata da `installa.html`, conserva le note delle versioni Android pubblicate e degli aggiornamenti web. I dati sono in `public/versioni.json` nei sorgenti: aggiornarli per ogni futura pubblicazione, indicando data, modifiche e commit. `scripts/build-history.mjs` rigenera la pagina durante la build e verifica che la versione più recente coincida con `public/version.json`.
+
+Gli APK rimossi non vengono ripubblicati. La versione 1.5 non risulta pubblicata nello storico GitHub. Modifiche alle sole pagine statiche di installazione e storico non richiedono un nuovo APK.
