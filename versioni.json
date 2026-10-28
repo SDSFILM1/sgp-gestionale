@@ -8,7 +8,7 @@
       "version": "1.24",
       "date": "2026-10-28",
       "title": "Aggiorna direttamente dall’app Android",
-      "commit": null,
+      "commit": "4eb0ee86efd06503ec8359e12d03371dd64eaafa",
       "changes": [
         "Dalla versione 1.24 il pulsante Aggiorna scarica il file, ne verifica l’autenticità e avvia l’installazione senza aprire manualmente l’APK.",
         "Su Android 12 o successivo viene richiesto l’aggiornamento senza ulteriori conferme, quando consentito dal telefono. Se il sistema richiede una conferma, viene aperta direttamente.",
