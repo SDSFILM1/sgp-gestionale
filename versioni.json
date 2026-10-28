@@ -5,6 +5,20 @@
   ],
   "releases": [
     {
+      "version": "1.24",
+      "date": "2026-10-28",
+      "title": "Aggiorna direttamente dall’app Android",
+      "commit": null,
+      "changes": [
+        "Dalla versione 1.24 il pulsante Aggiorna scarica il file, ne verifica l’autenticità e avvia l’installazione senza aprire manualmente l’APK.",
+        "Su Android 12 o successivo viene richiesto l’aggiornamento senza ulteriori conferme, quando consentito dal telefono. Se il sistema richiede una conferma, viene aperta direttamente.",
+        "Solo la prima volta può servire l’autorizzazione ad aggiornarsi per SGP. Sono mostrati avanzamento, problemi di rete, annullamenti e possibilità di riprovare.",
+        "Installazione limitata agli aggiornamenti SGP con stessa firma, versione superiore e file verificato. Per introdurre questa funzione occorre installare manualmente una volta la 1.24 sopra l’app esistente.",
+        "Include il promemoria dei compleanni con tutti i corsi attivi degli atleti, già preparato nella versione 1.23. Avviso di aggiornamento unico per evitare popup doppi."
+      ],
+      "webUpdates": []
+    },
+    {
       "version": "1.23",
       "date": "2026-10-28",
       "title": "Compleanni degli atleti con i loro corsi",
