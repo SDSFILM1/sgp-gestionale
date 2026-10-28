@@ -1,9 +1,22 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "missingVersions": [
     "1.5"
   ],
   "releases": [
+    {
+      "version": "1.23",
+      "date": "2026-10-28",
+      "title": "Compleanni degli atleti con i loro corsi",
+      "commit": null,
+      "changes": [
+        "Alla segreteria compare un popup con i compleanni del giorno degli atleti iscritti e in prova, usando le date di nascita già presenti.",
+        "Sotto ogni nome sono indicati tutti i corsi fissi attivi, anche quando un atleta frequenta più corsi.",
+        "Dopo la chiusura il popup non si ripete nella stessa giornata sullo stesso dispositivo; il promemoria resta riapribile da ogni pagina.",
+        "La data segue il fuso Europe/Rome; atleti rimossi e nascite mancanti sono esclusi. Nessuna richiesta aggiuntiva al database."
+      ],
+      "webUpdates": []
+    },
     {
       "version": "1.22",
       "date": "2026-10-27",
