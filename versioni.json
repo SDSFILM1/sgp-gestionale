@@ -8,7 +8,7 @@
       "version": "1.23",
       "date": "2026-10-28",
       "title": "Compleanni degli atleti con i loro corsi",
-      "commit": null,
+      "commit": "66cb6e526a7655863c6ebf8b93f65322b8c9b16d",
       "changes": [
         "Alla segreteria compare un popup con i compleanni del giorno degli atleti iscritti e in prova, usando le date di nascita già presenti.",
         "Sotto ogni nome sono indicati tutti i corsi fissi attivi, anche quando un atleta frequenta più corsi.",
