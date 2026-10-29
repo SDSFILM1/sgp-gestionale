@@ -1,9 +1,22 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "missingVersions": [
     "1.5"
   ],
   "releases": [
+    {
+      "version": "1.25",
+      "date": "2026-10-29",
+      "title": "Appello dopo la lezione e accesso dei docenti fissi",
+      "commit": null,
+      "changes": [
+        "Le supplenze possono essere attivate anche dopo la fine della lezione, fino a mezzanotte della stessa giornata secondo il fuso di Roma. Per i giorni precedenti serve la segreteria.",
+        "Il pulsante Apri appello come supplente rende esplicito che la registrazione apre subito le presenze e avvisa la segreteria. La supplenza resta limitata alla singola lezione.",
+        "Gli insegnanti fissi possono aprire anche le lezioni di oggi e future già esistenti del proprio corso, senza riscrivere gli insegnanti storici o le presenze già registrate.",
+        "Conservati controlli su lezioni annullate, account non attivi, altri corsi e salvataggi contemporanei. Include il sistema di aggiornamento diretto introdotto nella 1.24."
+      ],
+      "webUpdates": []
+    },
     {
       "version": "1.24",
       "date": "2026-10-28",
