@@ -1,9 +1,24 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-11-05",
   "missingVersions": [
     "1.5"
   ],
   "releases": [
+    {
+      "version": "1.26",
+      "date": "2026-11-05",
+      "title": "Atleti Wix e residuo abbonamenti",
+      "commit": null,
+      "changes": [
+        "Nuova scelta Tramite Wix nel modulo alunni, senza creare una nuova scheda manuale.",
+        "Alunni Wix visibili anche prima della prima prenotazione, con pacchetto e saldo aggiornati da Wix.",
+        "Gli atleti gestiti tramite Wix compaiono solo nelle lezioni prenotate. Le schede collegate mantengono note e presenze.",
+        "Gli abbonamenti terminati escono dall’elenco dopo tre giorni, conservando lo storico; gli errori di sincronizzazione non provocano rimozioni.",
+        "Corretta la classificazione nell’appello delle prenotazioni Wix collegate a una vecchia scheda in prova.",
+        "Risolto sul server il timeout di caricamento dei dati per gli insegnanti."
+      ],
+      "webUpdates": []
+    },
     {
       "version": "1.25",
       "date": "2026-10-29",
