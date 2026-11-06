@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "missingVersions": [
     "1.5"
   ],
@@ -17,7 +17,16 @@
         "Corretta la classificazione nell’appello delle prenotazioni Wix collegate a una vecchia scheda in prova.",
         "Risolto sul server il timeout di caricamento dei dati per gli insegnanti."
       ],
-      "webUpdates": []
+      "webUpdates": [
+        {
+          "date": "2026-11-06",
+          "title": "Da Wix a iscritto fisso",
+          "changes": [
+            "Nuovo pulsante riservato alla segreteria per passare un atleta Wix a iscritto fisso scegliendo subito uno o più corsi.",
+            "Il passaggio conserva scheda, note e presenze e rimuove il collegamento attivo; le sincronizzazioni Wix non riaggiungono l’atleta."
+          ]
+        }
+      ]
     },
     {
       "version": "1.25",
